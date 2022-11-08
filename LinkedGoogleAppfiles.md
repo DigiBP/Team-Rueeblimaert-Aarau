@@ -13,6 +13,9 @@ Medication interaction checking form
 
 https://forms.gle/hp6rfQYjiRzu492NA
 Prescription Form
+https://docs.google.com/spreadsheets/d/1xP-jTlqB5-bax8qxv7f1s43OcnDquWo0AHF_OP_aLEc/edit?usp=sharing
+Sheet where the Prescription Form responses go (and from there new rows should get send to the right patient sheet in the central database)
+
 
 
 ## Gmail
