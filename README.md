@@ -9,18 +9,3 @@ In our project, we focus on the interaction between the medical doctor in a prac
 In todays common practice medical doctors and pharmacies both store the prescription information in their respective information systems which are not connected. Sending a prescription from a doctors practice to the pharmacy is mostly done via email or on paper. In addition, there is no common database containing the patients complete medication information.
 
 in order to digitalize and improve this process, we implemented a common database in which a pharmacist can view the summary of a certain patient including a newly added prescription. At the same time, viewing this information allows to check reliably for eventual drug interactions.
-
-
-
-
-
-
-
-focusing on:
-• Reduced prescription filling time
-• Partially or fully automated service offerings through intelligent processes
-• Efficient check of regulatory measures
-• Improved integration with partners like hospitals and insurance companies
-Source:
-http://www.apotheke-thalwil.ch/english/the-swiss-pharmacy-and-drug-system.html
-https://pans.ns.ca/public/pharmacy-services/filling-prescription-dispensi
