@@ -1,4 +1,10 @@
 # Team-Rueeblimaert-Aarau
+## Members
+
+- Leana Anthony
+- Aletta Karsies
+- Paul Stehberger
+- Andreas Heule
 
 ## Introduction
 
@@ -8,7 +14,10 @@ In our project, we focus on the interaction between the medical doctor in a prac
 
 In today's common practice medical doctors and pharmacies both store the prescription information in their respective information systems which are **not** connected. Sending a prescription from a doctor's practice to the pharmacy is mostly done via email or on paper. In addition, there is no common database containing the patient's complete medication information.
 
-In order to digitalise and improve this process, we implemented a common database in which a pharmacist can view the summary of a certain patient including a newly added prescription. At the same time, viewing this information allows to check reliably for eventual drug interactions.
+## Our Goal
+
+We want to digitalise the procedure and the handling of prescriptions and therefore gain more efficiency for pharmacies. One other positive effect is going to be the improvement of drug interaction checks for patients.  
+The prescription will be sent to the pharmacy by filling out a Google form. The pharmacy receives the order and sees the current medication of the patient. With a decision table the medication will be checked for drug interaction. The pharmacist then double checks the data. After that the patient will be informed by email to kindly pick up their medication.
 
 ## List of Assumptions
 
