@@ -28,6 +28,7 @@ The prescription will be sent to the pharmacy by filling out a Google form. The 
 -	The used Google documents are secure and personal data will not leak
 -	Our Google sheet has the same function as a database
 - The decision table is simplified and would be replaced with a software approved by SwissMedic. We also do not distinguish between drug name and active ingredient
+- All user tasks will be handled directly by the employees of the pharmacy.
 
 ## Start of the Process:
 
