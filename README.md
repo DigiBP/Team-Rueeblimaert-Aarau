@@ -19,43 +19,26 @@ In today's common practice medical doctors and pharmacies both store the prescri
 We want to digitalise the procedure and the handling of prescriptions and therefore gain more efficiency for pharmacies. One other positive effect is going to be the improvement of drug interaction checks for patients.  
 The prescription will be sent to the pharmacy by filling out a Google form. The pharmacy receives the order and sees the current medication of the patient. With a decision table the medication will be checked for drug interaction. The pharmacist then double checks the data. After that, depending of the check result, the patient will be informed by email to kindly pick up their medication, or the prescribing physician will be informed about the detected drug interaction by email.
 
+![image](https://user-images.githubusercontent.com/115709957/209010933-959bf8d1-bb6a-4d2a-9c92-da9564c3c892.png)
+
+
 ## List of Assumptions
 
 - To simplify our project the patient can only choose from two pharmacies **A** and **B**
 -	The used Google documents are secure and personal data will not leak
 -	Our Google sheet has the same function as a database
-- The decision table is simplified and would be replaced with a software approved by SwissMedic
+- The decision table is simplified and would be replaced with a software approved by SwissMedic. We also do not distinguish between drug name and active ingredient
 
 ## Start of the Process:
 
 In our digitalised process, the patient goes to a physician. If needed the medical doctor writes a prescription by filling out the [Google form][1] (ten questions). Our BPN process starts as soon as the physician sends the Google form. In the screenshots below is an example of our Google form.
 
 [1]: https://docs.google.com/forms/d/e/1FAIpQLSfqVcNNJvv8UbSqdx3HZtLKWscjcq13AHXkysQsV_cB3ej1MA/viewform
-![Google_Form_Bild](https://user-images.githubusercontent.com/115709957/208297194-c8e7322f-9d16-46d3-89f3-b84006da64dc.jpg)
+![image](https://user-images.githubusercontent.com/115709957/209001835-aad677fd-aff0-4c5e-b1d3-844213653510.png)
 
 By sending the Google form, a new row is automatically inserted in the [Prescription Form (Responses)][2].
 
 [2]: https://docs.google.com/spreadsheets/d/1xP-jTlqB5-bax8qxv7f1s43OcnDquWo0AHF_OP_aLEc/edit#gid=1636714263
-
-![image](https://user-images.githubusercontent.com/115709957/208297491-2eea2048-43d4-4e56-98b9-06a952f9f7c6.png)
-
-By choosing **Pharmacy A** and sending the Google form. The process is then automatically initiated in *Pharmacy A*.
-![image](https://user-images.githubusercontent.com/115709957/208297748-970dff39-1174-448f-b9ab-a80520d03fdb.png)
-
-As you can see the process is initiated in *Pharmacy A*.
-![image](https://user-images.githubusercontent.com/115709957/208297768-95fd1ed4-f18a-41af-ad33-e077509ad49f.png)
-
-
-
-
-
-
-
-![image](https://user-images.githubusercontent.com/115709957/209001835-aad677fd-aff0-4c5e-b1d3-844213653510.png)
-
-
-
-
 
 ![image](https://user-images.githubusercontent.com/115709957/209001861-63387c09-e27e-40cc-b552-2ce6e6a32de7.png)
 
