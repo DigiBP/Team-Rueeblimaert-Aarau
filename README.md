@@ -43,34 +43,42 @@ By sending the Google form, a new row is automatically inserted in the [Prescrip
 
 ![image](https://user-images.githubusercontent.com/115709957/209001861-63387c09-e27e-40cc-b552-2ce6e6a32de7.png)
 
+## Pharmacy A or Pharmacy B
 By choosing **Pharmacy A** or **Pharmacy B** in the google form. Our first make scenario (*Pharmacy_Scenario1_Task1.json*) will send the data to either **Pharmacy A** or **Pharmacy B**.
 
 ![image](https://user-images.githubusercontent.com/115709957/209001900-3ed89301-9fc3-4b4d-b506-2e13b30b0221.png)
 
-The Router will filter the data for Pharamacy A or B and then pass it along to the right Pharmacy
+The Router will filter the data for *Pharamacy A* or *B* and then pass it along to the right Pharmacy
 
 ![image](https://user-images.githubusercontent.com/115709957/209001948-df0d4acf-8b5d-46f6-8c3e-5b05f61759f6.png)
-All Data will be passed to pharmacy A. 
+
+By choosing **Pharmacy A** and sending the Google form. The process is then automatically initiated in *Pharmacy A*, as you here can see:
 
 ![image](https://user-images.githubusercontent.com/115709957/209001997-b57b0000-bd0c-4d2b-b819-7fd4b736b58a.png)
-Then the data will be send back to comunda and the process is initiated in Pharmacy A
 
-![image](https://user-images.githubusercontent.com/115709957/209002024-025f681d-5645-4485-a107-7f8cfc40dd92.png)
+Then the data will be send back to comunda and the process is initiated in Pharmacy A.
+
+## Drug interaction
+After claiming the task, the second make scenario (*Pharmacy_Scenario2_GetMedicationList.json*) will summarise all entries from the patient ID in the *prescription form* so we get the patients medical history.
 
 ![image](https://user-images.githubusercontent.com/115709957/209002041-92716fb0-dc5d-430e-b7d2-db0b8903b8c5.png)
 
-google sheet
+The *google sheet* will select only the data of the current *Patient* (Patient ID)
 ![image](https://user-images.githubusercontent.com/115709957/209002059-38188e99-f47c-4e14-ac19-efb56850bdd4.png)
 
-1.tool
+The first *Tool* is going to Summerises all data (green boxes) into one text separated by a semicolon:
+
 ![image](https://user-images.githubusercontent.com/115709957/209002076-fc30e509-9adb-4b1e-ab24-cd61765b9696.png)
 
-2. tool
+The second *Tool* puts all selected data into a new variable value called *MedicationRecord* to later on search for drug interactions. 
+
 ![image](https://user-images.githubusercontent.com/115709957/209002155-d18210f1-840d-4e09-9697-6f8a545e9f7b.png)
 
-http: the medication record then will be send back to comunda
+The *MedicationRecord* will now be send back to comunda. Here you see the *MedicationRecord*:
+
 ![image](https://user-images.githubusercontent.com/115709957/209002192-fe4cd3e0-738c-46a9-b9e3-8fbf42a5b78a.png)
 
+The *User Task* is now 
 ![image](https://user-images.githubusercontent.com/115709957/209002225-e2b43dcd-a031-4c59-9288-9dfc32a36c2b.png)
 
 ![image](https://user-images.githubusercontent.com/115709957/209002242-8df6160b-c570-4697-97d2-37efae24cec4.png)
