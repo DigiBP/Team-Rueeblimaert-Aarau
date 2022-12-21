@@ -47,76 +47,104 @@ As you can see the process is initiated in *Pharmacy A*.
 
 
 
+![image](https://user-images.githubusercontent.com/115709957/209003206-a2c82dd7-a49b-406f-a818-1caccd0432b6.png)
 
 
 
-
-![image](https://user-images.githubusercontent.com/115709957/209001835-aad677fd-aff0-4c5e-b1d3-844213653510.png)
-
+![image](https://user-images.githubusercontent.com/115709957/209003223-7b4bb595-100c-4a7f-a66c-5aa1fc6cfc8e.png)
 
 
-
-
-![image](https://user-images.githubusercontent.com/115709957/209001861-63387c09-e27e-40cc-b552-2ce6e6a32de7.png)
+![image](https://user-images.githubusercontent.com/115709957/209003239-8c7be2d8-7dfb-4e68-8652-d951d1c79300.png)
 
 By choosing **Pharmacy A** or **Pharmacy B** in the google form. Our first make scenario (*Pharmacy_Scenario1_Task1.json*) will send the data to either **Pharmacy A** or **Pharmacy B**.
 
-![image](https://user-images.githubusercontent.com/115709957/209001900-3ed89301-9fc3-4b4d-b506-2e13b30b0221.png)
+![image](https://user-images.githubusercontent.com/115709957/209003259-4c3ad0c3-78af-430b-b385-4afe6a544a97.png)
 
 The Router will filter the data for Pharamacy A or B and then pass it along to the right Pharmacy
 
-![image](https://user-images.githubusercontent.com/115709957/209001948-df0d4acf-8b5d-46f6-8c3e-5b05f61759f6.png)
-All Data will be passed to pharmacy A. 
+![image](https://user-images.githubusercontent.com/115709957/209003306-e99a6839-a217-4556-88fc-c59c3f4915c6.png)
 
-![image](https://user-images.githubusercontent.com/115709957/209001997-b57b0000-bd0c-4d2b-b819-7fd4b736b58a.png)
+All Data will be passed to pharmacy A. 
+![image](https://user-images.githubusercontent.com/115709957/209003336-c59e9b30-929a-46e0-a1f0-53debdb87e61.png)
+
 Then the data will be send back to comunda and the process is initiated in Pharmacy A
 
-![image](https://user-images.githubusercontent.com/115709957/209002024-025f681d-5645-4485-a107-7f8cfc40dd92.png)
+![image](https://user-images.githubusercontent.com/115709957/209003376-05788366-7c03-4ec4-854a-527e3de9cf6b.png)
 
-![image](https://user-images.githubusercontent.com/115709957/209002041-92716fb0-dc5d-430e-b7d2-db0b8903b8c5.png)
+![image](https://user-images.githubusercontent.com/115709957/209003386-66261f66-a2e4-4b54-89f9-53c45516918a.png)
 
-google sheet
-![image](https://user-images.githubusercontent.com/115709957/209002059-38188e99-f47c-4e14-ac19-efb56850bdd4.png)
+Google sheets
+![image](https://user-images.githubusercontent.com/115709957/209003423-8a47b17a-5d3c-411c-8ba9-6e6cc2afdd52.png)
 
-1.tool
-![image](https://user-images.githubusercontent.com/115709957/209002076-fc30e509-9adb-4b1e-ab24-cd61765b9696.png)
 
-2. tool
-![image](https://user-images.githubusercontent.com/115709957/209002155-d18210f1-840d-4e09-9697-6f8a545e9f7b.png)
+1. tool
+![image](https://user-images.githubusercontent.com/115709957/209003475-8a2759d1-0bd2-49e4-ae91-744d5bf74693.png)
+
+2. Tool
+![image](https://user-images.githubusercontent.com/115709957/209003510-6a385fd3-79a9-4120-84e2-32f0d3f19786.png)
 
 http: the medication record then will be send back to comunda
-![image](https://user-images.githubusercontent.com/115709957/209002192-fe4cd3e0-738c-46a9-b9e3-8fbf42a5b78a.png)
+![image](https://user-images.githubusercontent.com/115709957/209003530-e29838ab-ec55-4a1d-b066-7c429e51f23c.png)
 
-![image](https://user-images.githubusercontent.com/115709957/209002225-e2b43dcd-a031-4c59-9288-9dfc32a36c2b.png)
-
-![image](https://user-images.githubusercontent.com/115709957/209002242-8df6160b-c570-4697-97d2-37efae24cec4.png)
+![image](https://user-images.githubusercontent.com/115709957/209003542-fdbc5279-cc0e-4bad-8d68-87f07998f7a2.png)
 
 
-![image](https://user-images.githubusercontent.com/115709957/209002255-6a2446d5-12c5-4b01-95ff-35bec9754c67.png)
+![image](https://user-images.githubusercontent.com/115709957/209003554-925acea7-487e-4df7-a340-9aea86ec2dec.png)
 
-![image](https://user-images.githubusercontent.com/115709957/209002279-2509f8f1-d1c8-477c-9d0b-bfaa34a3603c.png)
+![image](https://user-images.githubusercontent.com/115709957/209003571-572edce4-0a9a-4894-9da0-3352c845cc5e.png)
 
-![image](https://user-images.githubusercontent.com/115709957/209002298-86c4577a-ed93-4a6d-9398-390e52d3bfc4.png)
+![image](https://user-images.githubusercontent.com/115709957/209003582-29b31f48-6545-4700-8c5b-0906f6efbef0.png)
+
+![image](https://user-images.githubusercontent.com/115709957/209003595-87faecf9-eed2-4230-8b31-bff948f87fc4.png)
+
 User task: Medication will be prepared to pick up. When its ready. Emali will be send
 
-![image](https://user-images.githubusercontent.com/115709957/209002318-0fa33eb6-4436-4e9f-8af0-228135d53207.png)
+![image](https://user-images.githubusercontent.com/115709957/209003641-8d371ab1-528b-4701-a909-c5f9c9216c58.png)
 
-![image](https://user-images.githubusercontent.com/115709957/209002330-ceaac104-64a6-4fb4-8025-a9b4419b6302.png)
-
+Google sheets
+![image](https://user-images.githubusercontent.com/115709957/209003675-4038a51d-358b-4fff-9bdb-ec89a0bb8779.png)
 
 Email
-![image](https://user-images.githubusercontent.com/115709957/209002360-65598a09-50a1-4b75-a5f1-10baf58fe8ed.png)
+![image](https://user-images.githubusercontent.com/115709957/209003705-4d7c7cc8-f6a6-4b92-a590-99ee83097021.png)
 
-![image](https://user-images.githubusercontent.com/115709957/209002385-4b92bf3b-acb7-483f-a98e-954e7e492c37.png)
+
+![image](https://user-images.githubusercontent.com/115709957/209004203-b05290a4-ffd7-4383-9a4b-eb7397cd020e.png)
+
+
+![image](https://user-images.githubusercontent.com/115709957/209003719-dc567939-506b-44b7-b833-99df3a4cdf60.png)
 
 
 Google sheet
-![image](https://user-images.githubusercontent.com/115709957/209002424-8511c387-5e7f-4958-8cf5-022ce60b3e63.png)
+![image](https://user-images.githubusercontent.com/115709957/209004230-a3034bee-5209-458e-9b55-ca1d8420cb29.png)
 
 
 Email
-![image](https://user-images.githubusercontent.com/115709957/209002467-5975762b-d168-4992-83c0-d7e3c0096ed0.png)
+
+![image](https://user-images.githubusercontent.com/115709957/209004255-20a5d5a1-792e-4341-811b-0a6c71925342.png)
+
 And then the Email will be send to the Physician
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
