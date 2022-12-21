@@ -1,7 +1,7 @@
 # Team-Rueeblimaert-Aarau
 ## Members
 
-- Leana Anthony
+- Leena Anthony
 - Aletta Karsies
 - Paul Stehberger
 - Andreas Heule
