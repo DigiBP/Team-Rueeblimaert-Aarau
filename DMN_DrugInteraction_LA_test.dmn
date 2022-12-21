@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="Definitions_1068vjp" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.3.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.15.0">
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="Definitions_1068vjp" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.4.2" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.15.0">
   <decision id="Decision_111f66y" name="Drug Interaction Check">
     <decisionTable id="DecisionTable_10k06qy" hitPolicy="FIRST">
       <input id="Input_1" label="Medication List" camunda:inputVariable="medicationlist">
@@ -20,12 +20,34 @@
       <rule id="DecisionRule_13allsz">
         <description></description>
         <inputEntry id="UnaryTests_06mwcck">
-          <text>contains(medicationlist, "dafalgan") and contains(medicationlist, "minocin")</text>
+          <text>contains(medicationlist, "Citalopram") and contains(medicationlist, "Sumatriptan")</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_0rtq4jf">
           <text>"red"</text>
         </outputEntry>
         <outputEntry id="LiteralExpression_0rjen96">
+          <text>"A drug interaction has been detected "</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_12n9fas">
+        <inputEntry id="UnaryTests_0wz6ycs">
+          <text>contains(medicationlist, "Viagra") and contains(medicationlist, "Paxlovid")</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1kvhonl">
+          <text>"red"</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_11j6212">
+          <text>"A drug interaction has been detected "</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_09s94ui">
+        <inputEntry id="UnaryTests_1jefzb8">
+          <text>contains(medicationlist, "Ibuprofen") and contains(medicationlist, "Prednison")</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_06ov2yw">
+          <text>"red"</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_1fs03ny">
           <text>"A drug interaction has been detected "</text>
         </outputEntry>
       </rule>
