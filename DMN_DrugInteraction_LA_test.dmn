@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="Definitions_1068vjp" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.3.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.15.0">
+  <decision id="Decision_111f66y" name="Drug Interaction Check">
+    <decisionTable id="DecisionTable_10k06qy" hitPolicy="FIRST">
+      <input id="Input_1" label="Medication List" camunda:inputVariable="medicationlist">
+        <inputExpression id="InputExpression_1" typeRef="string" expressionLanguage="feel">
+          <text>medicationlist</text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="Drug Interaction" name="druginteraction" typeRef="string">
+        <outputValues id="UnaryTests_18qbdpp">
+          <text>"red","green"</text>
+        </outputValues>
+      </output>
+      <output id="OutputClause_1h9nk9w" label="Explanation" name="explanation" typeRef="string">
+        <outputValues id="UnaryTests_0un3snv">
+          <text>"A drug interaction has been detected","No drug intrecation"</text>
+        </outputValues>
+      </output>
+      <rule id="DecisionRule_13allsz">
+        <description></description>
+        <inputEntry id="UnaryTests_06mwcck">
+          <text>contains(medicationlist, "dafalgan") and contains(medicationlist, "minocin")</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0rtq4jf">
+          <text>"red"</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0rjen96">
+          <text>"A drug interaction has been detected "</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0fax6i7">
+        <description></description>
+        <inputEntry id="UnaryTests_060css5">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1pivkxa">
+          <text>"green"</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_1of1x96">
+          <text>"No drug interaction"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="Decision_111f66y">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>
