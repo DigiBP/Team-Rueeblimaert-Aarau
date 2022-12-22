@@ -66,7 +66,7 @@ After claiming the task, the second make scenario (*Pharmacy_Scenario2_GetMedica
 The *google sheet* will select only the data of the current *Patient* (Patient ID)
 ![image](https://user-images.githubusercontent.com/115709957/209002059-38188e99-f47c-4e14-ac19-efb56850bdd4.png)
 
-The first *Tool* is going to Summerises all data (green boxes) into one text separated by a semicolon:
+The first *Tool* is going to summarise all data (green boxes) into one text separated by a semicolon:
 
 ![image](https://user-images.githubusercontent.com/115709957/209002076-fc30e509-9adb-4b1e-ab24-cd61765b9696.png)
 
@@ -123,7 +123,7 @@ The email will be send and the physician is able to handle the issue immediately
 
 ![image](https://user-images.githubusercontent.com/115709957/209002467-5975762b-d168-4992-83c0-d7e3c0096ed0.png)
 
-And then the Email will be send to the Physician
+And then the Email will be send to the Physician.
 
 
 
