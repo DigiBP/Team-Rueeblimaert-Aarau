@@ -6,6 +6,21 @@
 - Paul Stehberger
 - Andreas Heule
 
+## File Description
+| File name | Description |
+| --- | --- |
+| DMN_DrugInteraction_LA_test.dmn | Decision table for Druginteraction |
+| Digital_Pharmacy_Concept_LA.bpmn | Vision for future  |
+| Digital_Pharmacy_Concept_LA.dcox | Explanation of Vison |
+| LinkedGoogleAppfiles.md | all Google Sheets and Form |
+| Pharmacy_Scenario1_Task1.json | Make scenario: Pass data to pharmacy |
+| Pharmacy_Scenario2_GetMedicationList.json | Make scenario: Show medication history |
+| Pharmacy_Scenario3_DrugInteractionDetected.json | Make scenario: Interaction detected email to physician |
+| Pharmacy_Scenario4_PrescriptionReady.json | Make scenario: No interaction email to patient |
+| Rueblimaert_Demo-2022-12-21_16.59.56.mp4 | Video of the working BPMN process |
+| Task1_full_Router_DrugInteraction_test_DMN_test.bpmn | digitalised BPMN process |
+
+
 ## Introduction
 
 In Switzerland, drugs with medical promise are usually sold and handed over to the patient in pharmacies. Depending on the category of a drug a prescription by a medical doctor is needed.
