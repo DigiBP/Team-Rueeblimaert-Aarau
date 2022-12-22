@@ -123,7 +123,7 @@ The email will be send and the physician is able to handle the issue immediately
 
 ![image](https://user-images.githubusercontent.com/115709957/209002467-5975762b-d168-4992-83c0-d7e3c0096ed0.png)
 
-And then the Email will be send to the Physician.
+And then the Email will be sent to the Physician.
 
 ## Fully automated Process
 
