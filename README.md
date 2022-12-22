@@ -46,7 +46,7 @@ By sending the Google form, a new row is automatically inserted in the [Prescrip
 ## Pharmacy A or Pharmacy B
 By choosing **Pharmacy A** or **Pharmacy B** in the google form. Our first make scenario (*Pharmacy_Scenario1_Task1.json*) will send the data to either **Pharmacy A** or **Pharmacy B**.
 
-![image](https://user-images.githubusercontent.com/115709957/209001900-3ed89301-9fc3-4b4d-b506-2e13b30b0221.png)
+<img src="https://user-images.githubusercontent.com/115709957/209001900-3ed89301-9fc3-4b4d-b506-2e13b30b0221.png" width="600"/>
 
 The Router will filter the data for *Pharamacy A* or *B* and then pass it along to the right Pharmacy
 
@@ -54,7 +54,7 @@ The Router will filter the data for *Pharamacy A* or *B* and then pass it along 
 
 By choosing **Pharmacy A** and sending the Google form. The process is then automatically initiated in *Pharmacy A*, as you here can see:
 
-![image](https://user-images.githubusercontent.com/115709957/209001997-b57b0000-bd0c-4d2b-b819-7fd4b736b58a.png)
+<img src="https://user-images.githubusercontent.com/115709957/209001997-b57b0000-bd0c-4d2b-b819-7fd4b736b58a.png" width="400"/>
 
 Then the data will be sent back to comunda and the process is initiated in Pharmacy A.
 
@@ -64,6 +64,7 @@ After claiming the task, the second make scenario (*Pharmacy_Scenario2_GetMedica
 ![image](https://user-images.githubusercontent.com/115709957/209002041-92716fb0-dc5d-430e-b7d2-db0b8903b8c5.png)
 
 The *google sheet* will select only the data of the current *Patient* (Patient ID)
+
 <img src="https://user-images.githubusercontent.com/115709957/209002059-38188e99-f47c-4e14-ac19-efb56850bdd4.png" height="600"/>
 
 The first *Tool* is going to summarise all data (green boxes) into one text separated by a semicolon:
@@ -72,7 +73,7 @@ The first *Tool* is going to summarise all data (green boxes) into one text sepa
 
 The second *Tool* puts all selected data into a new variable value called *MedicationRecord* to later on search for drug interactions. 
 
-<img src="https://user-images.githubusercontent.com/115709957/209002155-d18210f1-840d-4e09-9697-6f8a545e9f7b.png" height="600"/>
+<img src="https://user-images.githubusercontent.com/115709957/209002155-d18210f1-840d-4e09-9697-6f8a545e9f7b.png" height="400"/>
 
 The *MedicationRecord* will now be send back to comunda. Here you see the *MedicationRecord*:
 
@@ -100,20 +101,22 @@ The pharmacist is now able to double check the decision made by the decision tab
 
  The 4th make scenario (*Pharmacy_Scenario4_PrescriptionReady.json*) will now send an email to the patient to inform them to pick up their medicine.
 
-![image](https://user-images.githubusercontent.com/115709957/209002318-0fa33eb6-4436-4e9f-8af0-228135d53207.png)
+<img src="https://user-images.githubusercontent.com/115709957/209002318-0fa33eb6-4436-4e9f-8af0-228135d53207.png" width="400"/>
 
 The *Patient_information* will be filtered for *Patient ID*.
 
 <img src="https://user-images.githubusercontent.com/115709957/209002330-ceaac104-64a6-4fb4-8025-a9b4419b6302.png" height="500"/>
 
 The email will be send to the email address stored in the Sheet *Patient_Information*
+
 <img src="https://user-images.githubusercontent.com/115709957/209002360-65598a09-50a1-4b75-a5f1-10baf58fe8ed.png" height="400"/>
 
 In case the decision table would find a drug interaction the output will be red. After the pharmacist double checks and verifies the drug interaction an email will be send directly to the physicion to inform him about the issue. Therefore we implemented the third make scenario (*Pharmacy_Scenario3_DrugInteractionDetected.json*) which will send a email back to the physician.
 
-![image](https://user-images.githubusercontent.com/115709957/209002385-4b92bf3b-acb7-483f-a98e-954e7e492c37.png)
+<img src="https://user-images.githubusercontent.com/115709957/209002385-4b92bf3b-acb7-483f-a98e-954e7e492c37.png" width="400"/>
 
 The data of the responsible physcician is stored in the *google form* and the google sheet *Physician_information* stores their email address.
+
 <img src="https://user-images.githubusercontent.com/115709957/209002424-8511c387-5e7f-4958-8cf5-022ce60b3e63.png" height="500"/>
 
 The email will be send and the physician is able to handle the issue immediately. 
