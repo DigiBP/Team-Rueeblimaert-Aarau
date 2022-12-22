@@ -6,28 +6,13 @@
 - Paul Stehberger
 - Andreas Heule
 
-## File Description
-| File name | Description |
-| --- | --- |
-| DMN_DrugInteraction_LA_test.dmn | Decision table for Druginteraction |
-| Digital_Pharmacy_Concept_LA.bpmn | Vision for future  |
-| Digital_Pharmacy_Concept_LA.dcox | Explanation of Vison |
-| LinkedGoogleAppfiles.md | all Google Sheets and Form |
-| Pharmacy_Scenario1_Task1.json | Make scenario: Pass data to pharmacy |
-| Pharmacy_Scenario2_GetMedicationList.json | Make scenario: Show medication history |
-| Pharmacy_Scenario3_DrugInteractionDetected.json | Make scenario: Interaction detected email to physician |
-| Pharmacy_Scenario4_PrescriptionReady.json | Make scenario: No interaction email to patient |
-| Rueblimaert_Demo-2022-12-21_16.59.56.mp4 | Video of the working BPMN process |
-| Task1_full_Router_DrugInteraction_test_DMN_test.bpmn | digitalised BPMN process |
-
-
 ## Introduction
 
 In Switzerland, drugs with medical promise are usually sold and handed over to the patient in pharmacies. Depending on the category of a drug a prescription by a medical doctor is needed.
 
 In our project, we focus on the interaction between the medical doctor in a practice or hospital who fills the drug prescription and the pharmacy, as well as the process in the pharmacy where the prescription is checked and the required drug is eventually sold.
 
-In today's common practice medical doctors and pharmacies both store the prescription information in their respective information systems which are **not** connected. Sending a prescription from a doctor's practice to the pharmacy is mostly done via email or on paper. In addition, there is no common database containing the patient's complete medication information.
+In today's common practice medical doctors and pharmacies both store the prescription information in their respective information systems which are **not** connected. Sending a prescription from a doctor's practice to the pharmacy is mostly done via email or on paper. In addition, there is no common database containing the patient's complete medication history.
 
 ## Our Goal
 
@@ -47,7 +32,7 @@ The prescription will be sent to the pharmacy by filling out a Google form. The 
 
 ## Start of the Process:
 
-In our digitalised process, the patient goes to a physician. If needed the medical doctor writes a prescription by filling out the [Google form][1] (ten questions). Our BPN process starts as soon as the physician sends the Google form. In the screenshots below is an example of our Google form.
+In our digitalised process, the patient goes to a physician. If needed the medical doctor writes a prescription by filling out the [Google form][1] (ten questions). Our BPM process starts as soon as the physician sends the Google form. In the screenshots below is an example of our Google form.
 
 [1]: https://docs.google.com/forms/d/e/1FAIpQLSfqVcNNJvv8UbSqdx3HZtLKWscjcq13AHXkysQsV_cB3ej1MA/viewform
 ![image](https://user-images.githubusercontent.com/115709957/209001835-aad677fd-aff0-4c5e-b1d3-844213653510.png)
@@ -71,7 +56,7 @@ By choosing **Pharmacy A** and sending the Google form. The process is then auto
 
 ![image](https://user-images.githubusercontent.com/115709957/209001997-b57b0000-bd0c-4d2b-b819-7fd4b736b58a.png)
 
-Then the data will be send back to comunda and the process is initiated in Pharmacy A.
+Then the data will be sent back to comunda and the process is initiated in Pharmacy A.
 
 ## Drug interaction
 After claiming the task, the second make scenario (*Pharmacy_Scenario2_GetMedicationList.json*) will summarise all entries from the patient ID in the *prescription form* so we get the patients medical history.
