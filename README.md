@@ -50,7 +50,7 @@ By choosing **Pharmacy A** or **Pharmacy B** in the google form. Our first make 
 
 The Router will filter the data for *Pharamacy A* or *B* and then pass it along to the right Pharmacy
 
-![image](https://user-images.githubusercontent.com/115709957/209001948-df0d4acf-8b5d-46f6-8c3e-5b05f61759f6.png)
+<img src="https://user-images.githubusercontent.com/115709957/209001948-df0d4acf-8b5d-46f6-8c3e-5b05f61759f6.png" height="600"/>
 
 By choosing **Pharmacy A** and sending the Google form. The process is then automatically initiated in *Pharmacy A*, as you here can see:
 
@@ -64,15 +64,15 @@ After claiming the task, the second make scenario (*Pharmacy_Scenario2_GetMedica
 ![image](https://user-images.githubusercontent.com/115709957/209002041-92716fb0-dc5d-430e-b7d2-db0b8903b8c5.png)
 
 The *google sheet* will select only the data of the current *Patient* (Patient ID)
-![image](https://user-images.githubusercontent.com/115709957/209002059-38188e99-f47c-4e14-ac19-efb56850bdd4.png)
+<img src="https://user-images.githubusercontent.com/115709957/209002059-38188e99-f47c-4e14-ac19-efb56850bdd4.png" height="600"/>
 
 The first *Tool* is going to summarise all data (green boxes) into one text separated by a semicolon:
 
-![image](https://user-images.githubusercontent.com/115709957/209002076-fc30e509-9adb-4b1e-ab24-cd61765b9696.png)
+<img src="https://user-images.githubusercontent.com/115709957/209002076-fc30e509-9adb-4b1e-ab24-cd61765b9696.png" height="600"/>
 
 The second *Tool* puts all selected data into a new variable value called *MedicationRecord* to later on search for drug interactions. 
 
-![image](https://user-images.githubusercontent.com/115709957/209002155-d18210f1-840d-4e09-9697-6f8a545e9f7b.png)
+<img src="https://user-images.githubusercontent.com/115709957/209002155-d18210f1-840d-4e09-9697-6f8a545e9f7b.png" height="600"/>
 
 The *MedicationRecord* will now be send back to comunda. Here you see the *MedicationRecord*:
 
@@ -102,26 +102,24 @@ The pharmacist is now able to double check the decision made by the decision tab
 
 ![image](https://user-images.githubusercontent.com/115709957/209002318-0fa33eb6-4436-4e9f-8af0-228135d53207.png)
 
-The *Patient_information* will be filtered for *Patien ID*.
+The *Patient_information* will be filtered for *Patient ID*.
 
-![image](https://user-images.githubusercontent.com/115709957/209002330-ceaac104-64a6-4fb4-8025-a9b4419b6302.png)
+<img src="https://user-images.githubusercontent.com/115709957/209002330-ceaac104-64a6-4fb4-8025-a9b4419b6302.png" height="500"/>
 
 The email will be send to the email address stored in the Sheet *Patient_Information*
-
-![image](https://user-images.githubusercontent.com/115709957/209002360-65598a09-50a1-4b75-a5f1-10baf58fe8ed.png)
+<img src="https://user-images.githubusercontent.com/115709957/209002360-65598a09-50a1-4b75-a5f1-10baf58fe8ed.png" height="400"/>
 
 In case the decision table would find a drug interaction the output will be red. After the pharmacist double checks and verifies the drug interaction an email will be send directly to the physicion to inform him about the issue. Therefore we implemented the third make scenario (*Pharmacy_Scenario3_DrugInteractionDetected.json*) which will send a email back to the physician.
 
 ![image](https://user-images.githubusercontent.com/115709957/209002385-4b92bf3b-acb7-483f-a98e-954e7e492c37.png)
 
 The data of the responsible physcician is stored in the *google form* and the google sheet *Physician_information* stores their email address.
-
-![image](https://user-images.githubusercontent.com/115709957/209002424-8511c387-5e7f-4958-8cf5-022ce60b3e63.png)
+<img src="https://user-images.githubusercontent.com/115709957/209002424-8511c387-5e7f-4958-8cf5-022ce60b3e63.png" height="500"/>
 
 The email will be send and the physician is able to handle the issue immediately. 
 
 
-![image](https://user-images.githubusercontent.com/115709957/209002467-5975762b-d168-4992-83c0-d7e3c0096ed0.png)
+<img src="https://user-images.githubusercontent.com/115709957/209002467-5975762b-d168-4992-83c0-d7e3c0096ed0.png" height="400"/>
 
 And then the Email will be sent to the Physician.
 
