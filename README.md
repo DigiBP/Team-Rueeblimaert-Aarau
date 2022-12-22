@@ -50,7 +50,7 @@ By choosing **Pharmacy A** or **Pharmacy B** in the google form. Our first make 
 
 The Router will filter the data for *Pharamacy A* or *B* and then pass it along to the right Pharmacy
 
-<img src="https://user-images.githubusercontent.com/115709957/209001948-df0d4acf-8b5d-46f6-8c3e-5b05f61759f6.png" height="600"/>
+<img src="https://user-images.githubusercontent.com/115709957/209001948-df0d4acf-8b5d-46f6-8c3e-5b05f61759f6.png" height="400"/>
 
 By choosing **Pharmacy A** and sending the Google form. The process is then automatically initiated in *Pharmacy A*, as you here can see:
 
@@ -69,15 +69,15 @@ The *google sheet* will select only the data of the current *Patient* (Patient I
 
 The first *Tool* is going to summarise all data (green boxes) into one text separated by a semicolon:
 
-<img src="https://user-images.githubusercontent.com/115709957/209002076-fc30e509-9adb-4b1e-ab24-cd61765b9696.png" height="600"/>
+<img src="https://user-images.githubusercontent.com/115709957/209002076-fc30e509-9adb-4b1e-ab24-cd61765b9696.png" height="400"/>
 
 The second *Tool* puts all selected data into a new variable value called *MedicationRecord* to later on search for drug interactions. 
 
-<img src="https://user-images.githubusercontent.com/115709957/209002155-d18210f1-840d-4e09-9697-6f8a545e9f7b.png" height="400"/>
+<img src="https://user-images.githubusercontent.com/115709957/209002155-d18210f1-840d-4e09-9697-6f8a545e9f7b.png" height="300"/>
 
-The *MedicationRecord* will now be send back to comunda. Here you see the *MedicationRecord*:
+The *MedicationRecord* will now be send back to Camunda. Here you see the *MedicationRecord*:
 
-![image](https://user-images.githubusercontent.com/115709957/209002192-fe4cd3e0-738c-46a9-b9e3-8fbf42a5b78a.png)
+<img src="https://user-images.githubusercontent.com/115709957/209002192-fe4cd3e0-738c-46a9-b9e3-8fbf42a5b78a.png" width="600"/>
 
 The *User Task* **View MedicationList** is now activated
 ![image](https://user-images.githubusercontent.com/115709957/209002225-e2b43dcd-a031-4c59-9288-9dfc32a36c2b.png)
