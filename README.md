@@ -125,6 +125,11 @@ The email will be send and the physician is able to handle the issue immediately
 
 And then the Email will be send to the Physician.
 
+## Full automated Process
+
+As you can see we were also able to make the whole process fully automated 
+
+![image](https://user-images.githubusercontent.com/115709957/209134589-682562cd-88ca-4f8e-8518-6527c1318c0b.png)
 
 
 
