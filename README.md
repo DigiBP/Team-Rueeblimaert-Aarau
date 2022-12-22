@@ -125,14 +125,16 @@ The email will be send and the physician is able to handle the issue immediately
 
 And then the Email will be send to the Physician.
 
-## Full automated Process
+## Fully automated Process
 
-As you can see we were also able to make the whole process fully automated 
+As you can see we were also able to make the whole process fully automated. When the prescription is filled and Pharmacy B is chosen, the process will be triggered and an email will be sent to the patient or doctor depending on the outcome of the drug interaction check (the decision table).
+
+![image](https://user-images.githubusercontent.com/114395669/209151256-d6867e3d-9fa7-4e32-953a-a4d366f78a7a.png)
 
 ![image](https://user-images.githubusercontent.com/115709957/209134589-682562cd-88ca-4f8e-8518-6527c1318c0b.png)
 
 
-
+Please note that we have two business process models uploaded. One has Pharmacy A semi automated and Pharmacy B only with user tasks. Once we got Pharmacy A semi automated, we fully automated Pharmacy B and uploaded a new business process model. We are fully aware that this can be done in the same model. However, this is for purpose of demonstration as we did not want it to interfere with the make scenario we have already created for the semi automated Pharmacy A.
 
 
 
